@@ -24,5 +24,18 @@
     "eslint-plugin-react-refresh": "^0.4.18",
     "globals": "^15.14.0",
     "vite": "^6.1.0"
-  }
+  },
+  "description": "- **Objective:** Build a React-based product rating module where users can rate products.\r - **Provided Boilerplate:** The project includes a boilerplate with a static products array already defined in `App.jsx`.\r - **Key Concepts:** Child-to-parent communication, state management, and UI interactivity using React Hooks and PropTypes.",
+  "main": "eslint.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lakshmi-Shankar/Adding_relations_between_entities-Practice_assignment-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lakshmi-Shankar/Adding_relations_between_entities-Practice_assignment-2/issues"
+  },
+  "homepage": "https://github.com/Lakshmi-Shankar/Adding_relations_between_entities-Practice_assignment-2#readme"
 }

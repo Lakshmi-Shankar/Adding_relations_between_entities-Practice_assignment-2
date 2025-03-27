@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, { useState } from 'react';
 import ProductCard from './components/ProductCard';
 import './App.css';
@@ -31,10 +32,12 @@ const initialProducts = [
 
 function App() {
   return (
-    <div>
-      {initialProducts.map((items, index) => (
-        <ProductCard key={index} data={items} />
-      ))}
+    <div className='parentBox'>
+      <div className='mainBox'>
+        {initialProducts.map((items, index) => (
+          <ProductCard key={index} data={items} />
+        ))}
+      </div>
     </div>
   );
 }
